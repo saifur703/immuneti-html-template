@@ -1,0 +1,286 @@
+/*	Large Layout: 1280px	*/
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {}
+
+/*	Medium Layout: 1280px	*/
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+    .vitaminc-top,
+    .vitaminc-middle,
+    .vitaminc-testimonial,
+    .ouringredients-area {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+
+
+/*		Tablet Layout: 768px.       */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .main-menu li a {
+        font-size: 16px;
+    }
+    .hero-text h1 {
+        font-size: 35px;
+    }
+    .select-bundle {
+        display: block;
+    }
+    .vitaminc-top,
+    .vitaminc-middle,
+    .vitaminc-testimonial,
+    .ouringredients-area {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    .footer-info {
+        margin-top: 10px;
+    }
+}
+
+
+
+
+/*		Tablet and Mobile Layout         */
+@media only screen and (max-width: 991px) {
+
+    /* css */
+
+}
+
+
+/*		Mobile Layout: 320px.         */
+
+@media only screen and (max-width: 767px) {
+    .mobile-trigger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .mobile-trigger span {
+        width: 40px;
+        height: 3px;
+        background: #000;
+        display: block;
+        margin: 5px 0;
+    }
+
+    .main-menu {
+        position: fixed;
+        left: 0;
+        background: #fff;
+        height: 1000px;
+        padding: 0 15px 15px 30px;
+        display: none;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+        width: 0;
+    }
+
+    .main-menu.active {
+        display: block;
+        width: 250px;
+    }
+
+    .main-menu li {
+        display: block;
+        text-align: left;
+    }
+
+    .main-menu ul {
+        display: block;
+        text-align: left;
+    }
+
+    .main-menu li a {
+        text-align: left;
+        padding: 10px 5px;
+        font-size: 16px;
+        font-weight: 300;
+    }
+
+    .main-menu .menu-close {
+        display: inline-block;
+        color: #333;
+        position: absolute;
+        content: "x";
+        font-size: 25px;
+        right: 20px;
+        top: 5px;
+        cursor: pointer;
+        z-index: 99;
+    } 
+
+    .header-top {
+        font-size: 15px;
+    }
+
+    .header-top-right {
+        text-align: right;
+    }
+
+    .hero-text h1 {
+        font-size: 22px;
+    }
+
+    .hero-text {
+        max-width: 200px;
+    }
+
+    .hero-image img {
+        max-width: 200px;
+    }
+
+    .boxed-btn,
+    .btn-deep-blue {
+        font-size: 12px;
+    }
+
+    .hero-bottom li img,
+    .vitaminc-bottom img {
+        width: 120px;
+    }
+
+    .hero-bottom li {
+        padding: 10px;
+    }
+
+    .select-bundle {
+        display: block;
+    }
+.blue-bg p {
+    font-size: 13px;
+}
+.featured-slider .owl-nav div {
+    left: 0;
+}
+.featured-slider .owl-nav div.owl-next {
+    right: 0;
+}
+.vitaminc-left h3::before {
+    display: none;
+}
+.vitaminc-left h3{
+    font-size: 24px;
+}
+.vitaminc-middle h5 {
+    font-size: 18px;
+}
+.tab-label {
+    padding: 15px;
+    font-size: 16px;
+}
+.tab-label::after {
+    top: 5px;
+    right: 5px;
+    font-size: 16px;
+}
+.ouringredients1 h3,
+.ouringredients2 h3,
+.ouringredients3 h3 {
+    font-size: 18px;
+}
+.ouringredients1,
+.ouringredients3 {
+    font-size: 16px;
+}
+    .single-select-bundle-right {
+        margin-top: 20px;
+    }
+    .vitaminc-top {
+        padding: 0;
+    }
+
+    .vitaminc-middle {
+        padding: 0;
+        grid-template-columns: 1fr 1fr
+    }
+
+    .vitaminc-bottom,
+    .vitaminc-testimonial {
+        padding: 0;
+    }
+
+    .benefit-accordion .benefit-accordion-col {
+        display: block;
+    }
+
+    .benefit-accordion {
+        padding: 0;
+    }
+
+    .servicing {
+        grid-template-columns: repeat(2, 1fr)
+    }
+    .ouringredients-area,
+    .faq-area {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .trusted-quality {
+        display: block;
+        text-align: center;
+    }
+    .footer {
+        display: block;
+    }
+    .social-menu a {
+        display: inline-block;
+    }
+
+    .footer div {
+        margin: 10px 0;
+    }
+
+    .footer div {
+        margin: 10px 0;
+    }
+    .header-menu {
+        display: none;
+    }
+    .header-menu.active {
+        display: block;
+    }
+
+}
+
+@media only screen and (max-width: 425px) { 
+    .hero-text p {
+        font-size: 16px;
+    }
+    .hero-image {
+        top: 200px;
+    }
+    .vitaminc-left h3,
+    .combining-left h3 {
+        font-size: 20px;
+    }
+    .vitaminc-right img {
+        width: 100px;
+    }
+}
+
+/*		Wide Mobile Layout: 480px.        */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+    /* css */
+
+}
+
+
+
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+
+    /* css */
+
+}
