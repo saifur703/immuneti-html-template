@@ -386,6 +386,7 @@ span.review {
     position: absolute;
     left: 0;
     top: 54px;
+    z-index: 1;
 }
 
 .select-bundle-right-heading {
@@ -1056,5 +1057,11 @@ input:checked~.tab-content {
 }
 .mobile-trigger,
 .menu-close {
+    display: none;
+}
+.footer-menu.d-none {
+    display: none;
+}
+.d-m-block {
     display: none;
 }

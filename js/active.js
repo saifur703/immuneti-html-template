@@ -20,24 +20,6 @@
             nav: true,
             navText: ["<i class='fas fa-angle-left'></i>", "<i class='fas fa-angle-right'></i>"],
             autoplay: false,
-            responsive: {
-                0: {
-                    items: 2,
-                },
-                480: {
-                    items: 2,
-                },
-                768: {
-                    items: 3
-                },
-                992: {
-                    items: 4
-                },
-                1200: {
-                    items: 4
-                }
-
-            }
         });
 
         $('a[href*="#"]:not([href="#"])').click(function () {

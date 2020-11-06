@@ -3,6 +3,7 @@
 
 /*	Medium Layout: 1280px	*/
 @media only screen and (min-width: 1024px) and (max-width: 1200px) {
+
     .vitaminc-top,
     .vitaminc-middle,
     .vitaminc-testimonial,
@@ -20,12 +21,15 @@
     .main-menu li a {
         font-size: 16px;
     }
+
     .hero-text h1 {
         font-size: 35px;
     }
+
     .select-bundle {
         display: block;
     }
+
     .vitaminc-top,
     .vitaminc-middle,
     .vitaminc-testimonial,
@@ -33,7 +37,7 @@
         padding-left: 0;
         padding-right: 0;
     }
-    
+
     .footer-info {
         margin-top: 10px;
     }
@@ -59,9 +63,9 @@
     }
 
     .mobile-trigger span {
-        width: 40px;
+        width: 30px;
         height: 3px;
-        background: #000;
+        background: #09278d;
         display: block;
         margin: 5px 0;
     }
@@ -110,7 +114,25 @@
         top: 5px;
         cursor: pointer;
         z-index: 99;
-    } 
+    }
+
+    .hero-area {
+        padding-top: 120px;
+    }
+
+    .hero-image {
+        top: 150px;
+        width: 50%;
+    }
+
+    .hero-image img {
+        max-width: 300px;
+    }
+
+    .header-top-area {
+        padding-top: 7px;
+        padding-bottom: 7px;
+    }
 
     .header-top {
         font-size: 15px;
@@ -120,16 +142,29 @@
         text-align: right;
     }
 
-    .hero-text h1 {
+    .hero-text h1,
+    .combining-left h3 {
         font-size: 22px;
+    }
+
+    .sec-title h2 {
+        font-size: 26px;
+    }
+
+    .combining-left::after {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+        right: -45px;
     }
 
     .hero-text {
         max-width: 200px;
     }
 
-    .hero-image img {
-        max-width: 200px;
+    .hero-text p,
+    .hero-text li {
+        font-size: 16px;
     }
 
     .boxed-btn,
@@ -137,9 +172,27 @@
         font-size: 12px;
     }
 
+    .hero-bottom {
+        margin-top: 0;
+    }
+
+    .select-bundle-left-body,
+    .select-bundle-left-2 {
+        display: none;
+    }
+
+    .bundle-area {
+        padding: 5px 0;
+    }
+
+    .bundle-area h1 {
+        font-size: 30px;
+    }
+
     .hero-bottom li img,
     .vitaminc-bottom img {
         width: 120px;
+        padding: 0 15px;
     }
 
     .hero-bottom li {
@@ -149,57 +202,95 @@
     .select-bundle {
         display: block;
     }
-.blue-bg p {
-    font-size: 13px;
-}
-.featured-slider .owl-nav div {
-    left: 0;
-}
-.featured-slider .owl-nav div.owl-next {
-    right: 0;
-}
-.vitaminc-left h3::before {
-    display: none;
-}
-.vitaminc-left h3{
-    font-size: 24px;
-}
-.vitaminc-middle h5 {
-    font-size: 18px;
-}
-.tab-label {
-    padding: 15px;
-    font-size: 16px;
-}
-.tab-label::after {
-    top: 5px;
-    right: 5px;
-    font-size: 16px;
-}
-.ouringredients1 h3,
-.ouringredients2 h3,
-.ouringredients3 h3 {
-    font-size: 18px;
-}
-.ouringredients1,
-.ouringredients3 {
-    font-size: 16px;
-}
-    .single-select-bundle-right {
-        margin-top: 20px;
+
+    .blue-bg p {
+        font-size: 13px;
     }
+
+    .featured-slider .owl-nav div {
+        left: 0;
+    }
+
+    .featured-slider .owl-nav div.owl-next {
+        right: 0;
+    }
+
+    .vitaminc-left h3::before {
+        display: none;
+    }
+
+    .vitaminc-left h3 {
+        font-size: 24px;
+    }
+
+    .vitaminc-middle h5 {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .vitaminc-middle .quote {
+        font-size: 15px;
+    }
+
+    .tab-label {
+        padding: 15px;
+        font-size: 16px;
+    }
+
+    .tab-label::after {
+        top: 5px;
+        right: 5px;
+        font-size: 16px;
+    }
+
+    .vitaminc-right img {
+        max-width: 170px;
+    }
+
+    .ouringredients1 h3,
+    .ouringredients2 h3,
+    .ouringredients3 h3 {
+        font-size: 18px;
+    }
+
+    .ouringredients1,
+    .ouringredients3 {
+        font-size: 16px;
+    }
+
     .vitaminc-top {
         padding: 0;
     }
 
     .vitaminc-middle {
         padding: 0;
-        grid-template-columns: 1fr 1fr
+        grid-template-columns: 1fr 2fr
     }
 
     .vitaminc-bottom,
     .vitaminc-testimonial {
         padding: 0;
+        margin-top: 0;
+    }
+
+    .benefits-title,
+    .sec-title,
+    .single-servicing p {
+        font-size: 15px;
+    }
+
+    .ouringredients1 div,
+    .ouringredients3 div,
+    .faq-accordion .tab-label::after {
+        font-size: 12px;
+    }
+
+    .servicing h4 {
+        font-size: 18px;
+    }
+
+    .faq-accordion .tab-label {
+        padding: 8px;
     }
 
     .benefit-accordion .benefit-accordion-col {
@@ -211,20 +302,25 @@
     }
 
     .servicing {
-        grid-template-columns: repeat(2, 1fr)
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0;
     }
+
     .ouringredients-area,
     .faq-area {
         padding-left: 0;
         padding-right: 0;
     }
+
     .trusted-quality {
         display: block;
         text-align: center;
     }
+
     .footer {
         display: block;
     }
+
     .social-menu a {
         display: inline-block;
     }
@@ -236,31 +332,129 @@
     .footer div {
         margin: 10px 0;
     }
+
     .header-menu {
         display: none;
     }
+
     .header-menu.active {
         display: block;
     }
 
-}
+    .single-servicing img {
+        width: 100px;
+    }
 
-@media only screen and (max-width: 425px) { 
-    .hero-text p {
+    .servicing-quote,
+    .footer-info {
         font-size: 16px;
     }
-    .hero-image {
-        top: 200px;
+
+    .servicing-area {
+        padding: 30px 0;
     }
+
+    .footer-logo {
+        text-align: center;
+    }
+
+    .footer-logo img {
+        width: 40%;
+    }
+
+    .footer-menu.d-none {
+        display: inline-block;
+        width: 50%;
+        float: left;
+        min-height: 260px;
+    }
+
+    .footer-menu {
+        min-height: 270px;
+    }
+
+    .footer-menu li a {
+        font-size: 16px;
+    }
+
+    .d-m-none {
+        display: none;
+    }
+
+    .d-m-block {
+        display: block;
+    }
+
+    .d-flex.img50.d-m-block {
+        display: block;
+        padding: 0;
+    }
+
+    .d-flex.img50.d-m-block div {
+        padding: 0;
+    }
+
+    .d-flex.img50.d-m-block img {
+        width: 60%;
+        margin: 10px 0;
+    }
+
+    .d-flex.img50.d-m-block div::before,
+    .d-flex.img50.d-m-block div::after,
+    .d-flex.img50.d-m-block::before {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 425px) {
+
+    .hero-text p,
+    .hero-text li {
+        font-size: 12px;
+    }
+
+    .hero-image {
+        top: 50px;
+    }
+
+    .hero-text .boxed-btn,
+    .vitaminc-left {
+        font-size: 10px;
+    }
+
+    .blue-bg p {
+        font-size: 9px;
+    }
+
+    .blue-bg img {
+        width: 15px;
+    }
+
     .vitaminc-left h3,
     .combining-left h3 {
         font-size: 20px;
     }
-    .vitaminc-right img {
+
+    .vitaminc-right img,
+    .single-servicing img {
         width: 100px;
     }
 }
-
+@media only screen and (max-width: 320px) { 
+    .hero-text p,
+    .hero-text li {
+        max-width: 140px;
+    }
+    .hero-bottom ul,
+    .hero-bottom li {
+        display: inline-block;
+    }
+    .hero-bottom li {
+        width: 18%;
+        padding: 0;
+    }
+}
 /*		Wide Mobile Layout: 480px.        */
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
